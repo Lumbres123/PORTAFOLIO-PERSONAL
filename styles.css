@@ -1,0 +1,104 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html{
+  font-size: 62.5%;
+} 
+body{
+    
+}
+
+#navbar{
+  display:flex;
+  justify-content: flex-end;
+  width: 100%;
+  background: linear-gradient(90deg,rgb(247, 227, 227),rgb(20, 20, 187)30%,blue 60%);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+#navbar ul{
+  display: flex;
+  margin-right:  2rem;
+  list-style: none;
+}
+#navbar ul a{
+  display: block;
+  font-size: 2rem;
+  color: white;
+  padding: 3.5rem;
+  text-decoration: none;
+}
+#welcome-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://images.pexels.com/photos/206359/pexels-photo-206359.jpeg?auto=compress&cs=tinysrgb&w=1600);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#inicio{
+    width: 100vw;
+    height: 70vh;
+}
+#welcome-section h1{
+    color: white;
+    font-size: 7rem;
+    font-weight: 600;
+}
+#welcome-section p{
+    font-size: 2.5rem;
+    font-style: italic;
+    color: white;
+}
+#projects{
+    text-align: center;
+    padding: 10rem 2rem 2rem 2rem;
+    background-color: rgb(18, 18, 45);
+
+}
+#projects h2{
+    color: white;
+    font-size: 4rem;
+    margin-bottom: 5rem;
+}
+.projects-img{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    max-width: 1400;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+.project-tile{
+  width:100%;
+  max-width: 35rem;
+  height:30rem;
+  border-radius: 1rem;
+}
+.video{
+  width:100%;
+  max-width: 35rem;
+  height:30rem;
+  border-radius: 1rem;
+}
+#contacto{
+ display: flex;
+ align-items: center;
+ background-color: rgb(84, 77, 77);
+
+}
+.iconos{
+    width: 4rem;
+    height: 4rem;
+    margin: 10rem;
+}
